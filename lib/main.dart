@@ -12,7 +12,7 @@ class TuneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TuneView(),
+      home: TuneView() ,
     );
   }
 }
